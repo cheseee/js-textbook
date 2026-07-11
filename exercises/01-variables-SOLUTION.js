@@ -33,9 +33,9 @@ function check(condition, taskName, hint) {
 console.log("\n=== ЗАДАЧА 1: Объявление переменных ===");
 // Объяви: city (строка, const), year (число, const), tasksLeft (число 3, let)
 
-const city = "ИЗМЕНИ_МЕНЯ";      // ← ИЗМЕНИ МЕНЯ: напиши свой город
-const year = 0;                   // ← ИЗМЕНИ МЕНЯ: напиши текущий год
-let tasksLeft = 0;                // ← ИЗМЕНИ МЕНЯ: должно быть 3
+const city = "Москва";      // ← ИЗМЕНИ МЕНЯ: напиши свой город
+const year = 2026;                   // ← ИЗМЕНИ МЕНЯ: напиши текущий год
+let tasksLeft = 3;                // ← ИЗМЕНИ МЕНЯ: должно быть 3
 
 check(
   typeof city === "string" && typeof year === "number" && tasksLeft === 3,
